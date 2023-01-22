@@ -1,37 +1,16 @@
-# Vite + React + Typescript + Eslint + Prettier
+## Задание
 
-A starter for React with Typescript with the fast Vite and all static code testing with Eslint and formatting with Prettier.
+Сделать TODOlist по дизайну с использованием React Context, MUI, и React-Query</br>
+Внизу под листом должна быть рандомная новость бегущей строкой из API любого новостного ресурса.</br>
+В шестеренке настроек показывать switch с включением и выключением строки с новостями.</br>
+Залить задание на GitHub и приложить ссылку</br>
 
-![Vite + React + Typescript + Eslint + Prettier](/resources/screenshot.png)
+<img width="492" alt="image" src="https://user-images.githubusercontent.com/60133486/213944890-e41634cf-9084-4043-873b-cdffc80aa889.png">
 
-I found out about Vite and I wanted to have a boilerplate for the technologies that I use. You can find more about these in the following links: [Vite](https://github.com/vitejs/vite), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/).
+https://www.figma.com/file/C8X04jX085jFMQsEWTkoZD/To-Do-List-App-UI-(Community)-(Copy)?node-id=1%3A17
 
-## Installation
+## Реализация
 
-Clone the repo and run `yarn install`
-
-or Run command
-
-```
-npx degit TheSwordBreaker/vite-reactts-eslint-prettier project-name
-```
-
-## Start
-
-After the successfull installation of the packages: `yarn dev`
-
-## Steps in Vscode
-
-#### (works with better with this template)
-
-1. Install Eslint and prettier extension for vs code.
-2. Make Sure Both are enabled
-3. Make sure all packages are Installed. (Mostly Eslint and prettier in node_modules)
-4. Enable formatOnSave of vs code
-5. Open a .tsx file and check if the bottom right corners of vs code have Eslint and Prettier with a double tick
-
-![Screenshot (253)_LI](https://user-images.githubusercontent.com/52120562/162486286-7383a737-d555-4f9b-a4dd-c4a81deb7b96.jpg)
-
-If Everything is Good Then It Should Work, but let me new if something else happens
-
-Made with ❤️ by theSwordBreaker(we Destory all types of sword ⚡)
+Реализовано приложение с следующим стеком: </br>
+React / Typescript / React Context / MUI / React-Query / Framer Motion </br>
+Архитектурный подход - [featured sliced](https://feature-sliced.design/) </br>
