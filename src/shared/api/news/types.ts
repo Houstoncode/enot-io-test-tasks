@@ -8,7 +8,7 @@ export type News = {
 };
 
 export type NewsResponse = {
-  status: 'ok';
+  status: 'success';
   totalResults: number;
-  articles: News[];
+  results: News[];
 };

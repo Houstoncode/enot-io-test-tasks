@@ -2,10 +2,9 @@ import { AxiosPromise } from 'axios';
 
 import { apiInstance } from '../request';
 import { NewsResponse } from './types';
-
 const BASE_URL =
-  'v2/everything?q=tesla&from=2022-12-22&sortBy=publishedAt&apiKey=e5f4cf5f161f488fa477ed82b67621ae';
+  'api/1/news?apikey=pub_1596706f5f4fe7b05c79214b1aa1f9ebc2721&q=cryptocurrency';
 
 export const getNews = (): AxiosPromise<NewsResponse> => {
-  return apiInstance.get(BASE_URL, { baseURL: 'https://newsapi.org/' });
+  return apiInstance.get(BASE_URL, { baseURL: 'https://newsdata.io/' });
 };

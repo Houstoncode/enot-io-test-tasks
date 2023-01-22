@@ -11,5 +11,5 @@ export const useNews = () =>
   useQuery<AxiosResponse<NewsResponse, unknown>, unknown, News[]>(
     NEWS_LIST_QUERY_KEY,
     () => getNews(),
-    { select: ({ data }) => data.articles },
+    { select: ({ data }) => data.results },
   );
