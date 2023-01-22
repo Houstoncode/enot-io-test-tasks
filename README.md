@@ -14,3 +14,5 @@ https://www.figma.com/file/C8X04jX085jFMQsEWTkoZD/To-Do-List-App-UI-(Community)-
 Реализовано приложение с следующим стеком: </br>
 React / Typescript / React Context / MUI / React-Query / Framer Motion </br>
 Архитектурный подход - [featured sliced](https://feature-sliced.design/) </br>
+
+Ссылка на деплойнутое приложение - [тык](https://tasks.houstoncode.ru/)
