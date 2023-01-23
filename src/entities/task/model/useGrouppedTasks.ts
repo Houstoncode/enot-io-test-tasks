@@ -19,7 +19,10 @@ const grouppedTasks = (
 
   const tasks = data
     .filter((task) =>
-      dayJsInstance.utc(task.implementationAt).isAfter(dayJsInstance.utc(), 'day'),
+      dayJsInstance
+        .utc(task.implementationAt)
+        .add(1, 'day')
+        .isAfter(dayJsInstance.utc(), 'day'),
     )
     .sort(
       (a, b) =>
