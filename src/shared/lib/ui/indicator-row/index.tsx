@@ -40,11 +40,12 @@ export const IndicatorRow: FC<Props> = ({
       alignItems="center"
       justifyContent="space-between"
       component={motion.div}
+      gap="8px"
       {...animateProps}
     >
       <Stack direction="row" spacing={1} alignItems="center">
         <Indicator color={indicatorColor} />
-        <Stack spacing={0.5} position="relative">
+        <Stack spacing={0.5} maxWidth="240px" position="relative">
           {children}
         </Stack>
       </Stack>

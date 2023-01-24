@@ -20,16 +20,11 @@ export const TaskRowInfo: FC<Props> = ({ task }) => {
 
   return (
     <>
-      <Styled.Title variant="h5" fontWeight="600" lineHeight="20px" sx={titleStyleDone}>
+      <Styled.Title variant="h5" noWrap sx={titleStyleDone}>
         {title}
       </Styled.Title>
       {description && (
-        <Styled.Description
-          variant="subtitle1"
-          fontWeight="600"
-          lineHeight="17px"
-          color="text.secondary"
-        >
+        <Styled.Description variant="subtitle1" color="text.secondary" noWrap>
           {description}
         </Styled.Description>
       )}

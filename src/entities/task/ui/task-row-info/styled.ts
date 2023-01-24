@@ -1,8 +1,6 @@
 import { Typography } from '@mui/material';
 import { Box as MuiBox, styled } from '@mui/system';
 
-import { ellipsisText } from '@/shared';
-
 export const Container = styled(MuiBox)`
   display: flex;
   justify-content: space-between;
@@ -11,13 +9,9 @@ export const Container = styled(MuiBox)`
 
 export const Title = styled(Typography)`
   font-weight: 600;
-  line-height: 20px;
-
-  ${ellipsisText(1)}
+  line-height: 26px;
 `;
 export const Description = styled(Typography)`
   font-weight: 600;
   line-height: 17px;
-
-  ${ellipsisText(1)}
 `;
